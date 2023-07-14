@@ -33,7 +33,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: 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
+          personal_token: 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
           publish_dir: ./public
           publish_branch: deploy  # deploying branch
           cname: KevinKaul.github.io #123
