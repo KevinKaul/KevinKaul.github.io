@@ -36,4 +36,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }} # 生成deploy key 之后还需要再 https://github.com/peaceiris/actions-gh-pages/issues/736
           publish_dir: ./public
           publish_branch: deploy  # deploying branch
-          cname: KevinKaul.github.io
+          cname: KevinKaul.github.io #123
