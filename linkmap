@@ -1,10 +1,10 @@
-/index.html /
 /one/one/index.{html} /one/one/
 /one/three/index.{html} /one/three/
 /three//index.{html} /three//
-/three/one/index.{html} /three/one/
-/one//index.{html} /one//
-/one/two/index.{html} /one/two/
 /three/two/index.{html} /three/two/
 /two//index.{html} /two//
 /two/one/index.{html} /two/one/
+/index.html /
+/one//index.{html} /one//
+/one/two/index.{html} /one/two/
+/three/one/index.{html} /three/one/
