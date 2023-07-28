@@ -3,7 +3,6 @@ title: "Question type introduction"
 weight: -1
 ---
 
-# Question type introduction
 
 ## English question type
 

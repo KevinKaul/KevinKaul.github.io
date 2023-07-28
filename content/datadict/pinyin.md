@@ -3,7 +3,6 @@ title: "Chinese Pinyin Comparison Table"
 weight: 5
 ---
 
-# Chinese Pinyin Comparison Table
 
 - This document is used for Chinese Pinyin format comparison and conversion
 

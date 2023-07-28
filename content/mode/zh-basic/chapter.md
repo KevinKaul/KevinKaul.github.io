@@ -4,7 +4,6 @@ weight: 4
 ---
 
 
-# Paragraphs  Scoring
 ## Limit
 
 - send audio up to 300 seconds long 

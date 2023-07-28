@@ -3,7 +3,7 @@ title: "Hanyu Pinyin Scoring"
 weight: 1
 ---
 
-# Hanyu Pinyin Scoring
+
 ## Limit
 
 - send audio up to 20 seconds long 

@@ -3,7 +3,6 @@ title: "Public Parameters"
 weight: 1
 ---
 
-# Public Parameters
 
 ## Evaluation parameters
 

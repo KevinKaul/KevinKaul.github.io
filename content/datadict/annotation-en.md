@@ -3,7 +3,6 @@ title: "English special label format"
 weight: 1
 ---
 
-# English special label format
 
 In different English question types, the reference text (refText) supports the input of multiple annotation formats to meet the requirements of specific reading methods.
 

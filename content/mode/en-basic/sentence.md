@@ -3,7 +3,7 @@ title: "Sentence Scoring"
 weight: 3
 ---
 
-# Sentence Scoring
+
 ## Limit
 
 - send audio up to 40 seconds long 

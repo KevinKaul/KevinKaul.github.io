@@ -3,7 +3,6 @@ title: "Chinese special label format"
 weight: 2
 ---
 
-# Chinese special label format
 
 In different Chinese question types, the reference text (refText) supports the input of multiple annotation formats to meet the requirements of specific reading methods.
 

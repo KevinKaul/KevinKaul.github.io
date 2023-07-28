@@ -3,8 +3,6 @@ title: "Word Scoring"
 weight: 2
 ---
 
-
-# Word Scoring
 ## Limit
 
 - send audio up to 20 seconds long 

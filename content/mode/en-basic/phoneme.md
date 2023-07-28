@@ -3,7 +3,7 @@ title: "Phoneme Scoring"
 weight: 1
 ---
 
-# Phoneme Scoring
+
 ## Limit
 
 - send audio up to 20 seconds long 

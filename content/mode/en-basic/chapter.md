@@ -3,7 +3,6 @@ title: "Paragraphs Scoring"
 weight: 4
 ---
 
-# Paragraph Scoring
 ## Limit
 
 - send audio up to 300 seconds long 
