@@ -1,0 +1,144 @@
+---
+bookHidden: true
+---
+
+# Chinese word evaluation question type returns the original result
+
+```json
+{
+    "phn":98.4839477539062,
+    "endTime":830,
+    "refText":"早 早点",
+    "pinyin":"zao3 zao2 dian3",
+    "overall":95.7539062483947,
+    "phn":98.6248394775390,
+    "toneScore":96.4839470627539,
+    "startTime":340,
+    "waveTime":1020,
+    "taskId":"b1195999-1446-4a71-a671-699c2ceb607f",
+    "timestamp":1670465928,
+    "characters":[
+        {
+            "refText":"早",
+            "pinyin":"zao",
+            "overall":95.7402381026458,
+            "phn":93.0264815874023,
+            "toneRef":3,
+            "toneConfidence":[
+                0,
+                0,
+                0,
+                94,
+                6
+            ],
+            "toneScore":94.5887116883365,
+            "type":"normal",
+            "startTime":128,
+            "endTime":260,
+            "phonemes":[
+                {
+                    "phoneme":"z",
+                    "score":98.8102645874023,
+                    "startTime":340,
+                    "endTime":390
+                },
+                {
+                    "phoneme":"ao",
+                    "score":92.146468620651,
+                    "startTime":390,
+                    "endTime":510
+                }
+            ]
+        },
+        {
+            "refText":"早",
+            "pinyin":"zao",
+            "overall":94.8102645874023,
+            "phn":98.7402381026458,
+            "toneRef":2,
+            "toneConfidence":[
+                0,
+                0,
+                92,
+                4,
+                4
+            ],
+            "toneScore":94.5887116883365,
+            "type":"normal",
+            "startTime":600,
+            "endTime":710,
+            "phonemes":[
+                {
+                    "phoneme":"z",
+                    "score":98.8102645874023,
+                    "startTime":600,
+                    "endTime":650
+                },
+                {
+                    "phoneme":"ao",
+                    "score":98.8102645874023,
+                    "startTime":650,
+                    "endTime":710
+                }
+            ]
+        },
+        {
+            "refText":"点",
+            "pinyin":"dian",
+            "overall":98.8102645874023,
+            "phn":98.8102645874023,
+            "toneRef":3,
+            "toneConfidence":[
+                0,
+                0,
+                0,
+                94,
+                6
+            ],
+            "toneScore":94.5887116883365,
+            "type":"normal",
+            "startTime":710,
+            "endTime":830,
+            "phonemes":[
+                {
+                    "phoneme":"d",
+                    "score":98.8102645874023,
+                    "startTime":710,
+                    "endTime":760
+                },
+                {
+                    "phoneme":"ian",
+                    "score":98.8102645874023,
+                    "startTime":760,
+                    "endTime":830
+                }
+            ]
+        }
+    ],
+    "params":{
+        "connection":{
+            "core":"1.2.1.14",
+            "sdk":"miniprogram",
+            "version":"1.0.0.0",
+            "appId":"4ac2e***-****-****-****-********4c08",
+            "userId":"",
+            "deviceId":""
+        },
+        "request":{
+            "connectTimeout":15,
+            "format":"mp3",
+            "langType":"zh-cmn-Hans-CN",
+            "looseness":4,
+            "params":{
+                "mode":"word",
+                "refText":"早 早点"
+            },
+            "ratio":1,
+            "responseTimeout":15,
+            "sampleRate":"16000",
+            "scale":100
+        }
+    }
+}
+```
+

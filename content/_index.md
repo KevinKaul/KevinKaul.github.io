@@ -1,33 +1,60 @@
 ---
-title: 💜 Welcome to Amethyst! Happy Birthday!
+title: 💜 Welcome to SpeechEvalPro! 
 enableToc: false
 ---
 
-## What is Amethyst?
-Amethyst is a free [Obsidian Publish](https://obsidian.md/publish) alternative that is derived from two existing projects, [Quartz](https://quartz.jzhao.xyz/) and [Hugo Book](https://github.com/alex-shpak/hugo-book).
+## What is SpeechEvalPro?
 
-The purpose of Amethyst is to provide a space to publish more structured notes created in Obsidian that may not fit in the [digital garden](https://joelhooks.com/digital-garden/) archetype that is well-supported by existing projects.
+Independent research and development of educational voice AI model, integrating voice evaluation, speech recognition and other core 
 
-Amethyst was primarily created as a theme for my [course notes](https://notes.bencuan.me).
+technologies, providing high-quality, multi-dimensional Chinese and English pronunciation evaluation API, helping customers create 
+
+intelligent learning products for human-computer interaction.
 
 ## Get Started
-> 📚 Step 1: [Setup your own Amethyst instance](setup/setup.md)
+> 📚 Step 1: [获取AppKey](setup/appkey.md)
 
-> ✏️ Step 2: [Editing Notes in Amethyst](setup/editing.md)
+> ✏️ Step 2: [获取Token](setup/token.md)
 
-> 🔗 Step 3: [How to setup your Obsidian Vault to work with Amethyst](setup/obsidian.md)
+> 🔗 Step 3: [websocket 评测流程](setup/ws.md)
 
-> 👀 Step 4: [Preview Changes](setup/preview%20changes.md)
+> 👀 Step 4: [查看golang example](setup/example.md)
 
-> 🌍 Step 5: [Hosting Amethyst online!](setup/hosting.md)
+## Supported audio formats
 
-> 🎨 Step 6:  [Customizing Amethyst](setup/config.md)
+| parameter          | opus_raw | pcm      | wav      | mp3      |
+|:-------------------|:---------|:---------|:---------|:---------|
+| number of channels | Mono     | Mono     | Mono     | Mono     |
+| bit depth          | N/A      | 16 bit   | 16 bit   | N/A      |
+| sample rate        | 16000 Hz | 16000 Hz | 16000 Hz | 16000 Hz |
 
-Returning user? Here's how to [[setup/updating|update]] your existing Amethyst instance.
 
-Here's a list of all [setup-related notes](/tags/setup), which are also accessible via the sidebar menu under the "Getting Started" section.
+> opus_raw : It is the original opus encoding format that has not been encapsulated by the ogg container, which can maximize the retention of effective voice information while reducing the transmission bandwidth
 
-### Troubleshooting
-- 🚧 [Troubleshooting and FAQ](setup/troubleshooting.md)
-- 🐛 [Submit an Issue](https://github.com/64bitpandas/amethyst/issues)
-- 👀 [Contact me](https://bencuan.me/contact)
+
+## Supported question type introduction
+
+### English question type
+
+langType：en-US
+
+| name                                                         | mode     | Audio duration limit | Reference text length limit |
+|:-------------------------------------------------------------|:---------|:---------------------|:----------------------------|
+| <a href="#/help?url=mode/en-basic/phoneme.md" target="_blank">phoneme</a> | phoneme  | 20 s                 | 100 characters              |
+| <a href="#/help?url=mode/en-basic/word.md" target="_blank">word</a> | word     | 20 s                 | 100 characters              |
+| <a href="#/help?url=mode/en-basic/sentence.md" target="_blank">sentence</a> | sentence | 40 s                 | 300 characters              |
+| <a href="#/help?url=mode/en-basic/chapter.md" target="_blank">paragraph</a> | chapter  | 300 s                | 10000 characters            |
+
+## Chinese question type
+
+langType：zh-cmn-Hans-CN
+
+| name                                                         | mode     | Audio duration limit | Reference text length limit |
+|:-------------------------------------------------------------|:---------|:---------------------|:----------------------------|
+| <a href="#/help?url=mode/en-basic/phoneme.md" target="_blank">phoneme</a> | phoneme  | 20 s                 | 100 characters              |
+| <a href="#/help?url=mode/en-basic/word.md" target="_blank">word</a> | word     | 20 s                 | 50 characters               |
+| <a href="#/help?url=mode/en-basic/sentence.md" target="_blank">sentence</a> | sentence | 40 s                 | 100 characters              |
+| <a href="#/help?url=mode/en-basic/chapter.md" target="_blank">paragraph</a> | chapter  | 300 s                | 1000 characters             |
+
+
+

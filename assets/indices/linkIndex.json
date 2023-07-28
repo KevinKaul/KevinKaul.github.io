@@ -4,387 +4,645 @@
       "/": [
         {
           "source": "/",
-          "target": "/setup/setup",
-          "text": "Setup your own Amethyst instance"
+          "target": "/setup/appkey",
+          "text": "获取AppKey"
         },
         {
           "source": "/",
-          "target": "/setup/editing",
-          "text": "Editing Notes in Amethyst"
+          "target": "/setup/token",
+          "text": "获取Token"
         },
         {
           "source": "/",
-          "target": "/setup/obsidian",
-          "text": "How to setup your Obsidian Vault to work with Amethyst"
+          "target": "/setup/ws",
+          "text": "websocket 评测流程"
         },
         {
           "source": "/",
-          "target": "/setup/preview-changes",
-          "text": "Preview Changes"
-        },
-        {
-          "source": "/",
-          "target": "/setup/hosting",
-          "text": "Hosting Amethyst online!"
-        },
-        {
-          "source": "/",
-          "target": "/setup/config",
-          "text": "Customizing Amethyst"
-        },
-        {
-          "source": "/",
-          "target": "/setup/updating",
-          "text": "update"
-        },
-        {
-          "source": "/",
-          "target": "/tags/setup",
-          "text": "setup-related notes"
-        },
-        {
-          "source": "/",
-          "target": "/setup/troubleshooting",
-          "text": "Troubleshooting and FAQ"
+          "target": "/setup/example",
+          "text": "查看golang example"
         }
       ],
-      "/features/languages": [
+      "/mode/en-basic/chapter": [
         {
-          "source": "/features/languages",
-          "target": "/setup/config",
-          "text": "config"
+          "source": "/mode/en-basic/chapter",
+          "target": "/mode/common",
+          "text": "Evaluation parameters"
+        },
+        {
+          "source": "/mode/en-basic/chapter",
+          "target": "/datadict/annotation-en",
+          "text": "English special label format"
+        },
+        {
+          "source": "/mode/en-basic/chapter",
+          "target": "/mode/en-basic/chapter-result",
+          "text": "A complete example of the JSON response result"
+        },
+        {
+          "source": "/mode/en-basic/chapter",
+          "target": "/mode/common",
+          "text": "Audio Quality Information"
+        },
+        {
+          "source": "/mode/en-basic/chapter",
+          "target": "/datadict/other",
+          "text": "word type"
+        },
+        {
+          "source": "/mode/en-basic/chapter",
+          "target": "/datadict/other",
+          "text": "word type"
         }
       ],
-      "/setup/config": [
+      "/mode/en-basic/phoneme": [
         {
-          "source": "/setup/config",
-          "target": "/features/language",
-          "text": "Chinese, Japanese, and Korean support"
+          "source": "/mode/en-basic/phoneme",
+          "target": "/datadict/phoneme",
+          "text": "English Phonetic Symbol Comparison Table"
         },
         {
-          "source": "/setup/config",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
+          "source": "/mode/en-basic/phoneme",
+          "target": "/mode/en-basic/phoneme-result",
+          "text": "A complete example of the JSON response result"
+        },
+        {
+          "source": "/mode/en-basic/phoneme",
+          "target": "/mode/common",
+          "text": "Audio Quality Information"
+        },
+        {
+          "source": "/mode/en-basic/phoneme",
+          "target": "/datadict/other",
+          "text": "phoneme type"
         }
       ],
-      "/setup/editing": [
+      "/mode/en-basic/sentence": [
         {
-          "source": "/setup/editing",
-          "target": "/setup/obsidian",
-          "text": "How to setup your Obsidian Vault to work with Amethyst"
+          "source": "/mode/en-basic/sentence",
+          "target": "/mode/common",
+          "text": "Evaluation parameters"
         },
         {
-          "source": "/setup/editing",
-          "target": "/setup/preview-changes",
-          "text": "Preview Changes"
+          "source": "/mode/en-basic/sentence",
+          "target": "/datadict/annotation-en",
+          "text": "English special label format"
         },
         {
-          "source": "/setup/editing",
-          "target": "/setup/hosting",
-          "text": "Hosting Amethyst online!"
+          "source": "/mode/en-basic/sentence",
+          "target": "/mode/en-basic/sentence-result",
+          "text": "A complete example of the JSON response result"
         },
         {
-          "source": "/setup/editing",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
+          "source": "/mode/en-basic/sentence",
+          "target": "/mode/common",
+          "text": "Audio Quality Information"
+        },
+        {
+          "source": "/mode/en-basic/sentence",
+          "target": "/datadict/other",
+          "text": "word type"
+        },
+        {
+          "source": "/mode/en-basic/sentence",
+          "target": "/datadict/phoneme",
+          "text": "English Phonetic Symbol Comparison Table"
+        },
+        {
+          "source": "/mode/en-basic/sentence",
+          "target": "/datadict/other",
+          "text": "word type"
         }
       ],
-      "/setup/hosting": [
+      "/mode/en-basic/word": [
         {
-          "source": "/setup/hosting",
-          "target": "/setup/custom-Domain",
-          "text": "Learn how to set it up with Amethyst"
+          "source": "/mode/en-basic/word",
+          "target": "/datadict/annotation-en",
+          "text": "English special label format"
         },
         {
-          "source": "/setup/hosting",
-          "target": "/setup/ignore-notes",
-          "text": "Excluding pages from being published"
+          "source": "/mode/en-basic/word",
+          "target": "/mode/en-basic/word-result",
+          "text": "A complete example of the JSON response result"
         },
         {
-          "source": "/setup/hosting",
-          "target": "/setup/config",
-          "text": "Customizing Amethyst"
+          "source": "/mode/en-basic/word",
+          "target": "/mode/common",
+          "text": "Audio Quality Information"
         },
         {
-          "source": "/setup/hosting",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
+          "source": "/mode/en-basic/word",
+          "target": "/datadict/other",
+          "text": "word type"
+        },
+        {
+          "source": "/mode/en-basic/word",
+          "target": "/datadict/phoneme",
+          "text": "English Phonetic Symbol Comparison Table"
+        },
+        {
+          "source": "/mode/en-basic/word",
+          "target": "/datadict/phoneme",
+          "text": "English Phonetic Symbol Comparison Table"
         }
       ],
-      "/setup/obsidian": [
+      "/mode/intro": [
         {
-          "source": "/setup/obsidian",
-          "target": "/setup/setup",
-          "text": "setup"
+          "source": "/mode/intro",
+          "target": "/mode/en-basic/phoneme",
+          "text": "phoneme"
         },
         {
-          "source": "/setup/obsidian",
-          "target": "/setup/preview-changes",
-          "text": "Preview Changes"
+          "source": "/mode/intro",
+          "target": "/mode/en-basic/word",
+          "text": "word"
+        },
+        {
+          "source": "/mode/intro",
+          "target": "/mode/en-basic/sentence",
+          "text": "sentence"
+        },
+        {
+          "source": "/mode/intro",
+          "target": "/mode/en-basic/chapter",
+          "text": "paragraphs"
+        },
+        {
+          "source": "/mode/intro",
+          "target": "/mode/zh-basic/phoneme",
+          "text": "phoneme"
+        },
+        {
+          "source": "/mode/intro",
+          "target": "/mode/zh-basic/word",
+          "text": "word"
+        },
+        {
+          "source": "/mode/intro",
+          "target": "/mode/zh-basic/sentence",
+          "text": "sentence"
+        },
+        {
+          "source": "/mode/intro",
+          "target": "/mode/zh-basic/chapter",
+          "text": "paragraphs"
         }
       ],
-      "/setup/preview-changes": [
+      "/mode/zh-basic/chapter": [
         {
-          "source": "/setup/preview-changes",
-          "target": "/setup/hosting",
-          "text": "Hosting Amethyst online!"
+          "source": "/mode/zh-basic/chapter",
+          "target": "/mode/common",
+          "text": "Evaluation parameters"
+        },
+        {
+          "source": "/mode/zh-basic/chapter",
+          "target": "/datadict/annotation-zh",
+          "text": "Chinese special label format"
+        },
+        {
+          "source": "/mode/zh-basic/chapter",
+          "target": "/mode/zh-basic/chapter-result",
+          "text": "A complete example of the JSON response result"
+        },
+        {
+          "source": "/mode/zh-basic/chapter",
+          "target": "/mode/common",
+          "text": "Audio Quality Information"
+        },
+        {
+          "source": "/mode/zh-basic/chapter",
+          "target": "/datadict/other",
+          "text": "word type"
+        },
+        {
+          "source": "/mode/zh-basic/chapter",
+          "target": "/datadict/other",
+          "text": "word type"
         }
       ],
-      "/setup/setup": [
+      "/mode/zh-basic/phoneme": [
         {
-          "source": "/setup/setup",
-          "target": "/setup/editing",
-          "text": "Editing Notes in Amethyst"
+          "source": "/mode/zh-basic/phoneme",
+          "target": "/datadict/annotation-zh",
+          "text": "Chinese special label format"
         },
         {
-          "source": "/setup/setup",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
+          "source": "/mode/zh-basic/phoneme",
+          "target": "/datadict/pinyin",
+          "text": "rhyme scheme"
+        },
+        {
+          "source": "/mode/zh-basic/phoneme",
+          "target": "/datadict/annotation-zh",
+          "text": "Syllable Spelling Labeling Format"
+        },
+        {
+          "source": "/mode/zh-basic/phoneme",
+          "target": "/mode/zh-basic/phoneme-result",
+          "text": "A complete example of the JSON response result"
+        },
+        {
+          "source": "/mode/zh-basic/phoneme",
+          "target": "/mode/common",
+          "text": "Audio Quality Information"
+        },
+        {
+          "source": "/mode/zh-basic/phoneme",
+          "target": "/datadict/annotation-zh",
+          "text": "spelled out"
         }
       ],
-      "/setup/troubleshooting": [
+      "/mode/zh-basic/sentence": [
         {
-          "source": "/setup/troubleshooting",
-          "target": "/features/latex",
-          "text": "LaTeX"
+          "source": "/mode/zh-basic/sentence",
+          "target": "/mode/common",
+          "text": "Evaluation parameters"
         },
         {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/hosting",
-          "text": "hosting"
+          "source": "/mode/zh-basic/sentence",
+          "target": "/datadict/annotation-zh",
+          "text": "Chinese special label format"
         },
         {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/ignore-notes",
-          "text": "excluding pages from being published"
+          "source": "/mode/zh-basic/sentence",
+          "target": "/mode/zh-basic/sentence-result",
+          "text": "A complete example of the JSON response result"
         },
         {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/hosting",
-          "text": "hosting"
+          "source": "/mode/zh-basic/sentence",
+          "target": "/mode/common",
+          "text": "Audio Quality Information"
         },
         {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/obsidian",
-          "text": "Obsidian"
+          "source": "/mode/zh-basic/sentence",
+          "target": "/datadict/other",
+          "text": "word type"
         },
         {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/editing",
-          "text": "the 'how to edit' guide"
+          "source": "/mode/zh-basic/sentence",
+          "target": "/datadict/other",
+          "text": "word type"
+        }
+      ],
+      "/mode/zh-basic/word": [
+        {
+          "source": "/mode/zh-basic/word",
+          "target": "/datadict/annotation-zh",
+          "text": "Chinese special label format"
         },
         {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/hosting",
-          "text": "the hosting guide"
+          "source": "/mode/zh-basic/word",
+          "target": "/mode/zh-basic/word-result",
+          "text": "A complete example of the JSON response result"
         },
         {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/config",
-          "text": "customization guide"
+          "source": "/mode/zh-basic/word",
+          "target": "/mode/common",
+          "text": "Audio Quality Information"
         },
         {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/editing",
-          "text": "local editing"
+          "source": "/mode/zh-basic/word",
+          "target": "/datadict/other",
+          "text": "word type"
         }
       ]
     },
     "backlinks": {
-      "/features/language": [
+      "/datadict/annotation-en": [
         {
-          "source": "/setup/config",
-          "target": "/features/language",
-          "text": "Chinese, Japanese, and Korean support"
+          "source": "/mode/en-basic/chapter",
+          "target": "/datadict/annotation-en",
+          "text": "English special label format"
+        },
+        {
+          "source": "/mode/en-basic/sentence",
+          "target": "/datadict/annotation-en",
+          "text": "English special label format"
+        },
+        {
+          "source": "/mode/en-basic/word",
+          "target": "/datadict/annotation-en",
+          "text": "English special label format"
         }
       ],
-      "/features/latex": [
+      "/datadict/annotation-zh": [
         {
-          "source": "/setup/troubleshooting",
-          "target": "/features/latex",
-          "text": "LaTeX"
+          "source": "/mode/zh-basic/chapter",
+          "target": "/datadict/annotation-zh",
+          "text": "Chinese special label format"
+        },
+        {
+          "source": "/mode/zh-basic/phoneme",
+          "target": "/datadict/annotation-zh",
+          "text": "Chinese special label format"
+        },
+        {
+          "source": "/mode/zh-basic/phoneme",
+          "target": "/datadict/annotation-zh",
+          "text": "Syllable Spelling Labeling Format"
+        },
+        {
+          "source": "/mode/zh-basic/phoneme",
+          "target": "/datadict/annotation-zh",
+          "text": "spelled out"
+        },
+        {
+          "source": "/mode/zh-basic/sentence",
+          "target": "/datadict/annotation-zh",
+          "text": "Chinese special label format"
+        },
+        {
+          "source": "/mode/zh-basic/word",
+          "target": "/datadict/annotation-zh",
+          "text": "Chinese special label format"
         }
       ],
-      "/setup/config": [
+      "/datadict/other": [
+        {
+          "source": "/mode/en-basic/chapter",
+          "target": "/datadict/other",
+          "text": "word type"
+        },
+        {
+          "source": "/mode/en-basic/chapter",
+          "target": "/datadict/other",
+          "text": "word type"
+        },
+        {
+          "source": "/mode/en-basic/phoneme",
+          "target": "/datadict/other",
+          "text": "phoneme type"
+        },
+        {
+          "source": "/mode/en-basic/sentence",
+          "target": "/datadict/other",
+          "text": "word type"
+        },
+        {
+          "source": "/mode/en-basic/sentence",
+          "target": "/datadict/other",
+          "text": "word type"
+        },
+        {
+          "source": "/mode/en-basic/word",
+          "target": "/datadict/other",
+          "text": "word type"
+        },
+        {
+          "source": "/mode/zh-basic/chapter",
+          "target": "/datadict/other",
+          "text": "word type"
+        },
+        {
+          "source": "/mode/zh-basic/chapter",
+          "target": "/datadict/other",
+          "text": "word type"
+        },
+        {
+          "source": "/mode/zh-basic/sentence",
+          "target": "/datadict/other",
+          "text": "word type"
+        },
+        {
+          "source": "/mode/zh-basic/sentence",
+          "target": "/datadict/other",
+          "text": "word type"
+        },
+        {
+          "source": "/mode/zh-basic/word",
+          "target": "/datadict/other",
+          "text": "word type"
+        }
+      ],
+      "/datadict/phoneme": [
+        {
+          "source": "/mode/en-basic/phoneme",
+          "target": "/datadict/phoneme",
+          "text": "English Phonetic Symbol Comparison Table"
+        },
+        {
+          "source": "/mode/en-basic/sentence",
+          "target": "/datadict/phoneme",
+          "text": "English Phonetic Symbol Comparison Table"
+        },
+        {
+          "source": "/mode/en-basic/word",
+          "target": "/datadict/phoneme",
+          "text": "English Phonetic Symbol Comparison Table"
+        },
+        {
+          "source": "/mode/en-basic/word",
+          "target": "/datadict/phoneme",
+          "text": "English Phonetic Symbol Comparison Table"
+        }
+      ],
+      "/datadict/pinyin": [
+        {
+          "source": "/mode/zh-basic/phoneme",
+          "target": "/datadict/pinyin",
+          "text": "rhyme scheme"
+        }
+      ],
+      "/mode/common": [
+        {
+          "source": "/mode/en-basic/chapter",
+          "target": "/mode/common",
+          "text": "Evaluation parameters"
+        },
+        {
+          "source": "/mode/en-basic/chapter",
+          "target": "/mode/common",
+          "text": "Audio Quality Information"
+        },
+        {
+          "source": "/mode/en-basic/phoneme",
+          "target": "/mode/common",
+          "text": "Audio Quality Information"
+        },
+        {
+          "source": "/mode/en-basic/sentence",
+          "target": "/mode/common",
+          "text": "Evaluation parameters"
+        },
+        {
+          "source": "/mode/en-basic/sentence",
+          "target": "/mode/common",
+          "text": "Audio Quality Information"
+        },
+        {
+          "source": "/mode/en-basic/word",
+          "target": "/mode/common",
+          "text": "Audio Quality Information"
+        },
+        {
+          "source": "/mode/zh-basic/chapter",
+          "target": "/mode/common",
+          "text": "Evaluation parameters"
+        },
+        {
+          "source": "/mode/zh-basic/chapter",
+          "target": "/mode/common",
+          "text": "Audio Quality Information"
+        },
+        {
+          "source": "/mode/zh-basic/phoneme",
+          "target": "/mode/common",
+          "text": "Audio Quality Information"
+        },
+        {
+          "source": "/mode/zh-basic/sentence",
+          "target": "/mode/common",
+          "text": "Evaluation parameters"
+        },
+        {
+          "source": "/mode/zh-basic/sentence",
+          "target": "/mode/common",
+          "text": "Audio Quality Information"
+        },
+        {
+          "source": "/mode/zh-basic/word",
+          "target": "/mode/common",
+          "text": "Audio Quality Information"
+        }
+      ],
+      "/mode/en-basic/chapter": [
+        {
+          "source": "/mode/intro",
+          "target": "/mode/en-basic/chapter",
+          "text": "paragraphs"
+        }
+      ],
+      "/mode/en-basic/chapter-result": [
+        {
+          "source": "/mode/en-basic/chapter",
+          "target": "/mode/en-basic/chapter-result",
+          "text": "A complete example of the JSON response result"
+        }
+      ],
+      "/mode/en-basic/phoneme": [
+        {
+          "source": "/mode/intro",
+          "target": "/mode/en-basic/phoneme",
+          "text": "phoneme"
+        }
+      ],
+      "/mode/en-basic/phoneme-result": [
+        {
+          "source": "/mode/en-basic/phoneme",
+          "target": "/mode/en-basic/phoneme-result",
+          "text": "A complete example of the JSON response result"
+        }
+      ],
+      "/mode/en-basic/sentence": [
+        {
+          "source": "/mode/intro",
+          "target": "/mode/en-basic/sentence",
+          "text": "sentence"
+        }
+      ],
+      "/mode/en-basic/sentence-result": [
+        {
+          "source": "/mode/en-basic/sentence",
+          "target": "/mode/en-basic/sentence-result",
+          "text": "A complete example of the JSON response result"
+        }
+      ],
+      "/mode/en-basic/word": [
+        {
+          "source": "/mode/intro",
+          "target": "/mode/en-basic/word",
+          "text": "word"
+        }
+      ],
+      "/mode/en-basic/word-result": [
+        {
+          "source": "/mode/en-basic/word",
+          "target": "/mode/en-basic/word-result",
+          "text": "A complete example of the JSON response result"
+        }
+      ],
+      "/mode/zh-basic/chapter": [
+        {
+          "source": "/mode/intro",
+          "target": "/mode/zh-basic/chapter",
+          "text": "paragraphs"
+        }
+      ],
+      "/mode/zh-basic/chapter-result": [
+        {
+          "source": "/mode/zh-basic/chapter",
+          "target": "/mode/zh-basic/chapter-result",
+          "text": "A complete example of the JSON response result"
+        }
+      ],
+      "/mode/zh-basic/phoneme": [
+        {
+          "source": "/mode/intro",
+          "target": "/mode/zh-basic/phoneme",
+          "text": "phoneme"
+        }
+      ],
+      "/mode/zh-basic/phoneme-result": [
+        {
+          "source": "/mode/zh-basic/phoneme",
+          "target": "/mode/zh-basic/phoneme-result",
+          "text": "A complete example of the JSON response result"
+        }
+      ],
+      "/mode/zh-basic/sentence": [
+        {
+          "source": "/mode/intro",
+          "target": "/mode/zh-basic/sentence",
+          "text": "sentence"
+        }
+      ],
+      "/mode/zh-basic/sentence-result": [
+        {
+          "source": "/mode/zh-basic/sentence",
+          "target": "/mode/zh-basic/sentence-result",
+          "text": "A complete example of the JSON response result"
+        }
+      ],
+      "/mode/zh-basic/word": [
+        {
+          "source": "/mode/intro",
+          "target": "/mode/zh-basic/word",
+          "text": "word"
+        }
+      ],
+      "/mode/zh-basic/word-result": [
+        {
+          "source": "/mode/zh-basic/word",
+          "target": "/mode/zh-basic/word-result",
+          "text": "A complete example of the JSON response result"
+        }
+      ],
+      "/setup/appkey": [
         {
           "source": "/",
-          "target": "/setup/config",
-          "text": "Customizing Amethyst"
-        },
-        {
-          "source": "/features/languages",
-          "target": "/setup/config",
-          "text": "config"
-        },
-        {
-          "source": "/setup/hosting",
-          "target": "/setup/config",
-          "text": "Customizing Amethyst"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/config",
-          "text": "customization guide"
+          "target": "/setup/appkey",
+          "text": "获取AppKey"
         }
       ],
-      "/setup/custom-Domain": [
-        {
-          "source": "/setup/hosting",
-          "target": "/setup/custom-Domain",
-          "text": "Learn how to set it up with Amethyst"
-        }
-      ],
-      "/setup/editing": [
+      "/setup/example": [
         {
           "source": "/",
-          "target": "/setup/editing",
-          "text": "Editing Notes in Amethyst"
-        },
-        {
-          "source": "/setup/setup",
-          "target": "/setup/editing",
-          "text": "Editing Notes in Amethyst"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/editing",
-          "text": "the 'how to edit' guide"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/editing",
-          "text": "local editing"
+          "target": "/setup/example",
+          "text": "查看golang example"
         }
       ],
-      "/setup/hosting": [
+      "/setup/token": [
         {
           "source": "/",
-          "target": "/setup/hosting",
-          "text": "Hosting Amethyst online!"
-        },
-        {
-          "source": "/setup/editing",
-          "target": "/setup/hosting",
-          "text": "Hosting Amethyst online!"
-        },
-        {
-          "source": "/setup/preview-changes",
-          "target": "/setup/hosting",
-          "text": "Hosting Amethyst online!"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/hosting",
-          "text": "hosting"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/hosting",
-          "text": "hosting"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/hosting",
-          "text": "the hosting guide"
+          "target": "/setup/token",
+          "text": "获取Token"
         }
       ],
-      "/setup/ignore-notes": [
-        {
-          "source": "/setup/hosting",
-          "target": "/setup/ignore-notes",
-          "text": "Excluding pages from being published"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/ignore-notes",
-          "text": "excluding pages from being published"
-        }
-      ],
-      "/setup/obsidian": [
+      "/setup/ws": [
         {
           "source": "/",
-          "target": "/setup/obsidian",
-          "text": "How to setup your Obsidian Vault to work with Amethyst"
-        },
-        {
-          "source": "/setup/editing",
-          "target": "/setup/obsidian",
-          "text": "How to setup your Obsidian Vault to work with Amethyst"
-        },
-        {
-          "source": "/setup/troubleshooting",
-          "target": "/setup/obsidian",
-          "text": "Obsidian"
-        }
-      ],
-      "/setup/preview-changes": [
-        {
-          "source": "/",
-          "target": "/setup/preview-changes",
-          "text": "Preview Changes"
-        },
-        {
-          "source": "/setup/editing",
-          "target": "/setup/preview-changes",
-          "text": "Preview Changes"
-        },
-        {
-          "source": "/setup/obsidian",
-          "target": "/setup/preview-changes",
-          "text": "Preview Changes"
-        }
-      ],
-      "/setup/setup": [
-        {
-          "source": "/",
-          "target": "/setup/setup",
-          "text": "Setup your own Amethyst instance"
-        },
-        {
-          "source": "/setup/obsidian",
-          "target": "/setup/setup",
-          "text": "setup"
-        }
-      ],
-      "/setup/troubleshooting": [
-        {
-          "source": "/",
-          "target": "/setup/troubleshooting",
-          "text": "Troubleshooting and FAQ"
-        },
-        {
-          "source": "/setup/config",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
-        },
-        {
-          "source": "/setup/editing",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
-        },
-        {
-          "source": "/setup/hosting",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
-        },
-        {
-          "source": "/setup/setup",
-          "target": "/setup/troubleshooting",
-          "text": "FAQ and Troubleshooting guide"
-        }
-      ],
-      "/setup/updating": [
-        {
-          "source": "/",
-          "target": "/setup/updating",
-          "text": "update"
-        }
-      ],
-      "/tags/setup": [
-        {
-          "source": "/",
-          "target": "/tags/setup",
-          "text": "setup-related notes"
+          "target": "/setup/ws",
+          "text": "websocket 评测流程"
         }
       ]
     }
@@ -392,173 +650,288 @@
   "links": [
     {
       "source": "/",
-      "target": "/setup/setup",
-      "text": "Setup your own Amethyst instance"
+      "target": "/setup/appkey",
+      "text": "获取AppKey"
     },
     {
       "source": "/",
-      "target": "/setup/editing",
-      "text": "Editing Notes in Amethyst"
+      "target": "/setup/token",
+      "text": "获取Token"
     },
     {
       "source": "/",
-      "target": "/setup/obsidian",
-      "text": "How to setup your Obsidian Vault to work with Amethyst"
+      "target": "/setup/ws",
+      "text": "websocket 评测流程"
     },
     {
       "source": "/",
-      "target": "/setup/preview-changes",
-      "text": "Preview Changes"
+      "target": "/setup/example",
+      "text": "查看golang example"
     },
     {
-      "source": "/",
-      "target": "/setup/hosting",
-      "text": "Hosting Amethyst online!"
+      "source": "/mode/en-basic/chapter",
+      "target": "/mode/common",
+      "text": "Evaluation parameters"
     },
     {
-      "source": "/",
-      "target": "/setup/config",
-      "text": "Customizing Amethyst"
+      "source": "/mode/en-basic/chapter",
+      "target": "/datadict/annotation-en",
+      "text": "English special label format"
     },
     {
-      "source": "/",
-      "target": "/setup/updating",
-      "text": "update"
+      "source": "/mode/en-basic/chapter",
+      "target": "/mode/en-basic/chapter-result",
+      "text": "A complete example of the JSON response result"
     },
     {
-      "source": "/",
-      "target": "/tags/setup",
-      "text": "setup-related notes"
+      "source": "/mode/en-basic/chapter",
+      "target": "/mode/common",
+      "text": "Audio Quality Information"
     },
     {
-      "source": "/",
-      "target": "/setup/troubleshooting",
-      "text": "Troubleshooting and FAQ"
+      "source": "/mode/en-basic/chapter",
+      "target": "/datadict/other",
+      "text": "word type"
     },
     {
-      "source": "/features/languages",
-      "target": "/setup/config",
-      "text": "config"
+      "source": "/mode/en-basic/chapter",
+      "target": "/datadict/other",
+      "text": "word type"
     },
     {
-      "source": "/setup/config",
-      "target": "/features/language",
-      "text": "Chinese, Japanese, and Korean support"
+      "source": "/mode/en-basic/phoneme",
+      "target": "/datadict/phoneme",
+      "text": "English Phonetic Symbol Comparison Table"
     },
     {
-      "source": "/setup/config",
-      "target": "/setup/troubleshooting",
-      "text": "FAQ and Troubleshooting guide"
+      "source": "/mode/en-basic/phoneme",
+      "target": "/mode/en-basic/phoneme-result",
+      "text": "A complete example of the JSON response result"
     },
     {
-      "source": "/setup/editing",
-      "target": "/setup/obsidian",
-      "text": "How to setup your Obsidian Vault to work with Amethyst"
+      "source": "/mode/en-basic/phoneme",
+      "target": "/mode/common",
+      "text": "Audio Quality Information"
     },
     {
-      "source": "/setup/editing",
-      "target": "/setup/preview-changes",
-      "text": "Preview Changes"
+      "source": "/mode/en-basic/phoneme",
+      "target": "/datadict/other",
+      "text": "phoneme type"
     },
     {
-      "source": "/setup/editing",
-      "target": "/setup/hosting",
-      "text": "Hosting Amethyst online!"
+      "source": "/mode/en-basic/sentence",
+      "target": "/mode/common",
+      "text": "Evaluation parameters"
     },
     {
-      "source": "/setup/editing",
-      "target": "/setup/troubleshooting",
-      "text": "FAQ and Troubleshooting guide"
+      "source": "/mode/en-basic/sentence",
+      "target": "/datadict/annotation-en",
+      "text": "English special label format"
     },
     {
-      "source": "/setup/hosting",
-      "target": "/setup/custom-Domain",
-      "text": "Learn how to set it up with Amethyst"
+      "source": "/mode/en-basic/sentence",
+      "target": "/mode/en-basic/sentence-result",
+      "text": "A complete example of the JSON response result"
     },
     {
-      "source": "/setup/hosting",
-      "target": "/setup/ignore-notes",
-      "text": "Excluding pages from being published"
+      "source": "/mode/en-basic/sentence",
+      "target": "/mode/common",
+      "text": "Audio Quality Information"
     },
     {
-      "source": "/setup/hosting",
-      "target": "/setup/config",
-      "text": "Customizing Amethyst"
+      "source": "/mode/en-basic/sentence",
+      "target": "/datadict/other",
+      "text": "word type"
     },
     {
-      "source": "/setup/hosting",
-      "target": "/setup/troubleshooting",
-      "text": "FAQ and Troubleshooting guide"
+      "source": "/mode/en-basic/sentence",
+      "target": "/datadict/phoneme",
+      "text": "English Phonetic Symbol Comparison Table"
     },
     {
-      "source": "/setup/obsidian",
-      "target": "/setup/setup",
-      "text": "setup"
+      "source": "/mode/en-basic/sentence",
+      "target": "/datadict/other",
+      "text": "word type"
     },
     {
-      "source": "/setup/obsidian",
-      "target": "/setup/preview-changes",
-      "text": "Preview Changes"
+      "source": "/mode/en-basic/word",
+      "target": "/datadict/annotation-en",
+      "text": "English special label format"
     },
     {
-      "source": "/setup/preview-changes",
-      "target": "/setup/hosting",
-      "text": "Hosting Amethyst online!"
+      "source": "/mode/en-basic/word",
+      "target": "/mode/en-basic/word-result",
+      "text": "A complete example of the JSON response result"
     },
     {
-      "source": "/setup/setup",
-      "target": "/setup/editing",
-      "text": "Editing Notes in Amethyst"
+      "source": "/mode/en-basic/word",
+      "target": "/mode/common",
+      "text": "Audio Quality Information"
     },
     {
-      "source": "/setup/setup",
-      "target": "/setup/troubleshooting",
-      "text": "FAQ and Troubleshooting guide"
+      "source": "/mode/en-basic/word",
+      "target": "/datadict/other",
+      "text": "word type"
     },
     {
-      "source": "/setup/troubleshooting",
-      "target": "/features/latex",
-      "text": "LaTeX"
+      "source": "/mode/en-basic/word",
+      "target": "/datadict/phoneme",
+      "text": "English Phonetic Symbol Comparison Table"
     },
     {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/hosting",
-      "text": "hosting"
+      "source": "/mode/en-basic/word",
+      "target": "/datadict/phoneme",
+      "text": "English Phonetic Symbol Comparison Table"
     },
     {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/ignore-notes",
-      "text": "excluding pages from being published"
+      "source": "/mode/intro",
+      "target": "/mode/en-basic/phoneme",
+      "text": "phoneme"
     },
     {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/hosting",
-      "text": "hosting"
+      "source": "/mode/intro",
+      "target": "/mode/en-basic/word",
+      "text": "word"
     },
     {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/obsidian",
-      "text": "Obsidian"
+      "source": "/mode/intro",
+      "target": "/mode/en-basic/sentence",
+      "text": "sentence"
     },
     {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/editing",
-      "text": "the 'how to edit' guide"
+      "source": "/mode/intro",
+      "target": "/mode/en-basic/chapter",
+      "text": "paragraphs"
     },
     {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/hosting",
-      "text": "the hosting guide"
+      "source": "/mode/intro",
+      "target": "/mode/zh-basic/phoneme",
+      "text": "phoneme"
     },
     {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/config",
-      "text": "customization guide"
+      "source": "/mode/intro",
+      "target": "/mode/zh-basic/word",
+      "text": "word"
     },
     {
-      "source": "/setup/troubleshooting",
-      "target": "/setup/editing",
-      "text": "local editing"
+      "source": "/mode/intro",
+      "target": "/mode/zh-basic/sentence",
+      "text": "sentence"
+    },
+    {
+      "source": "/mode/intro",
+      "target": "/mode/zh-basic/chapter",
+      "text": "paragraphs"
+    },
+    {
+      "source": "/mode/zh-basic/chapter",
+      "target": "/mode/common",
+      "text": "Evaluation parameters"
+    },
+    {
+      "source": "/mode/zh-basic/chapter",
+      "target": "/datadict/annotation-zh",
+      "text": "Chinese special label format"
+    },
+    {
+      "source": "/mode/zh-basic/chapter",
+      "target": "/mode/zh-basic/chapter-result",
+      "text": "A complete example of the JSON response result"
+    },
+    {
+      "source": "/mode/zh-basic/chapter",
+      "target": "/mode/common",
+      "text": "Audio Quality Information"
+    },
+    {
+      "source": "/mode/zh-basic/chapter",
+      "target": "/datadict/other",
+      "text": "word type"
+    },
+    {
+      "source": "/mode/zh-basic/chapter",
+      "target": "/datadict/other",
+      "text": "word type"
+    },
+    {
+      "source": "/mode/zh-basic/phoneme",
+      "target": "/datadict/annotation-zh",
+      "text": "Chinese special label format"
+    },
+    {
+      "source": "/mode/zh-basic/phoneme",
+      "target": "/datadict/pinyin",
+      "text": "rhyme scheme"
+    },
+    {
+      "source": "/mode/zh-basic/phoneme",
+      "target": "/datadict/annotation-zh",
+      "text": "Syllable Spelling Labeling Format"
+    },
+    {
+      "source": "/mode/zh-basic/phoneme",
+      "target": "/mode/zh-basic/phoneme-result",
+      "text": "A complete example of the JSON response result"
+    },
+    {
+      "source": "/mode/zh-basic/phoneme",
+      "target": "/mode/common",
+      "text": "Audio Quality Information"
+    },
+    {
+      "source": "/mode/zh-basic/phoneme",
+      "target": "/datadict/annotation-zh",
+      "text": "spelled out"
+    },
+    {
+      "source": "/mode/zh-basic/sentence",
+      "target": "/mode/common",
+      "text": "Evaluation parameters"
+    },
+    {
+      "source": "/mode/zh-basic/sentence",
+      "target": "/datadict/annotation-zh",
+      "text": "Chinese special label format"
+    },
+    {
+      "source": "/mode/zh-basic/sentence",
+      "target": "/mode/zh-basic/sentence-result",
+      "text": "A complete example of the JSON response result"
+    },
+    {
+      "source": "/mode/zh-basic/sentence",
+      "target": "/mode/common",
+      "text": "Audio Quality Information"
+    },
+    {
+      "source": "/mode/zh-basic/sentence",
+      "target": "/datadict/other",
+      "text": "word type"
+    },
+    {
+      "source": "/mode/zh-basic/sentence",
+      "target": "/datadict/other",
+      "text": "word type"
+    },
+    {
+      "source": "/mode/zh-basic/word",
+      "target": "/datadict/annotation-zh",
+      "text": "Chinese special label format"
+    },
+    {
+      "source": "/mode/zh-basic/word",
+      "target": "/mode/zh-basic/word-result",
+      "text": "A complete example of the JSON response result"
+    },
+    {
+      "source": "/mode/zh-basic/word",
+      "target": "/mode/common",
+      "text": "Audio Quality Information"
+    },
+    {
+      "source": "/mode/zh-basic/word",
+      "target": "/datadict/other",
+      "text": "word type"
     }
   ]
 }

@@ -1,0 +1,237 @@
+---
+bookHidden: true
+---
+
+# English paragraph evaluation question type returns the original result
+
+### Final evaluation result
+
+```json
+{
+    "accuracy":71.0856475830078,
+    "endTime":8260,
+    "fluency":85.3683471679688,
+    "hypothesis":"i believe there is person who brings sunshine into life person may have enough to spread around",
+    "integrity":82.6015625,
+    "overall":82.368522644043,
+    "refText":"I believe there is a person who brings sunshine into your life. That person may have enough to spread around.",
+    "sentenceInfo":[
+        {
+            "endTime":4390,
+            "fluency":{
+                "overall":84.5795593261719,
+                "pause":0,
+                "speed":2
+            },
+            "hypothesis":"i believe there is person who brings sunshine into life",
+            "refText":"I believe there is a person who brings sunshine into your life.",
+            "score":83.9473571777344,
+            "startTime":890,
+            "wordInfo":[
+                {
+                    "endTime":1120,
+                    "hypothesis":"i",
+                    "refText":"I",
+                    "score":97.2836685180664,
+                    "startTime":890,
+                    "type":"normal"
+                },
+                {
+                    "endTime":1560,
+                    "hypothesis":"believe",
+                    "refText":"believe",
+                    "score":98.4467086791992,
+                    "startTime":1120,
+                    "type":"normal"
+                },
+                {
+                    "endTime":1720,
+                    "hypothesis":"there",
+                    "refText":"there",
+                    "score":28.7834358215332,
+                    "startTime":1590,
+                    "type":"normal"
+                },
+                {
+                    "endTime":1970,
+                    "hypothesis":"is",
+                    "refText":"is",
+                    "score":10.9413394927979,
+                    "startTime":1720,
+                    "type":"normal"
+                },
+                {
+                    "endTime":2140,
+                    "hypothesis":"***",
+                    "refText":"a",
+                    "score":0,
+                    "startTime":2140,
+                    "type":"delete"
+                },
+                {
+                    "endTime":2630,
+                    "hypothesis":"person",
+                    "refText":"person",
+                    "score":98.8880310058594,
+                    "startTime":2140,
+                    "type":"normal"
+                },
+                {
+                    "endTime":2920,
+                    "hypothesis":"who",
+                    "refText":"who",
+                    "score":50.607852935791,
+                    "startTime":2660,
+                    "type":"normal"
+                },
+                {
+                    "endTime":3300,
+                    "hypothesis":"brings",
+                    "refText":"brings",
+                    "score":94.5367202758789,
+                    "startTime":2950,
+                    "type":"normal"
+                },
+                {
+                    "endTime":3700,
+                    "hypothesis":"sunshine",
+                    "refText":"sunshine",
+                    "score":85.8800277709961,
+                    "startTime":3300,
+                    "type":"normal"
+                },
+                {
+                    "endTime":4060,
+                    "hypothesis":"into",
+                    "refText":"into",
+                    "score":64.9129791259766,
+                    "startTime":3730,
+                    "type":"normal"
+                },
+                {
+                    "endTime":4060,
+                    "hypothesis":"***",
+                    "refText":"your",
+                    "score":0,
+                    "startTime":4060,
+                    "type":"delete"
+                },
+                {
+                    "endTime":4390,
+                    "hypothesis":"life",
+                    "refText":"life.",
+                    "score":79.7712020874023,
+                    "startTime":4090,
+                    "type":"normal"
+                }
+            ]
+        },
+        {
+            "endTime":8260,
+            "fluency":{
+                "overall":86.5624008178711,
+                "pause":1,
+                "speed":1
+            },
+            "hypothesis":"person may have enough to spread around",
+            "refText":"That person may have enough to spread around.",
+            "score":80.2644577026367,
+            "startTime":4390,
+            "wordInfo":[
+                {
+                    "endTime":4390,
+                    "hypothesis":"***",
+                    "refText":"That",
+                    "score":0,
+                    "startTime":4390,
+                    "type":"delete"
+                },
+                {
+                    "endTime":5390,
+                    "hypothesis":"person",
+                    "refText":"person",
+                    "score":76.8650054931641,
+                    "startTime":4880,
+                    "type":"normal"
+                },
+                {
+                    "endTime":5500,
+                    "hypothesis":"may",
+                    "refText":"may",
+                    "score":73.9065093994141,
+                    "startTime":5390,
+                    "type":"normal"
+                },
+                {
+                    "endTime":6020,
+                    "hypothesis":"have",
+                    "refText":"have",
+                    "score":67.8774261474609,
+                    "startTime":5530,
+                    "type":"normal"
+                },
+                {
+                    "endTime":6600,
+                    "hypothesis":"enough",
+                    "refText":"enough",
+                    "score":75.3252563476562,
+                    "startTime":6210,
+                    "type":"normal"
+                },
+                {
+                    "endTime":6940,
+                    "hypothesis":"to",
+                    "refText":"to",
+                    "score":93.9482879638672,
+                    "startTime":6730,
+                    "type":"normal"
+                },
+                {
+                    "endTime":7610,
+                    "hypothesis":"spread",
+                    "refText":"spread",
+                    "score":84.6640396118164,
+                    "startTime":6940,
+                    "type":"normal"
+                },
+                {
+                    "endTime":8260,
+                    "hypothesis":"around",
+                    "refText":"around.",
+                    "score":53.8154792785645,
+                    "startTime":7660,
+                    "type":"normal"
+                }
+            ]
+        }
+    ],
+    "startTime":890,
+    "waveTime":9252,
+    "taskId":"05398071-2a9c-4c30-8e18-d4d83c8c0aeb",
+    "timestamp":1670466551
+}
+```
+
+### Return results in real time
+
+```json
+{
+    "hypothesis":"I believe",
+    "wordInfo":[
+        {
+            "index":0,
+            "refText":"I",
+            "score":98.2038116455078,
+            "type":"normal"
+        },
+        {
+            "index":1,
+            "refText":"believe",
+            "score":98.2038116455078,
+            "type":"normal"
+        }
+    ],
+    "taskId":"05398071-2a9c-4c30-8e18-d4d83c8c0aeb",
+    "timestamp":1670465928
+}
+```

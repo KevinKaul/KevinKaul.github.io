@@ -1,8 +1,8 @@
-baseURL: https://amethyst.bencuan.me
+baseURL: https://docs.speech-eval.pro
 
 # Book configuration
 disablePathToLower: true
-enableGitInfo: true
+enableGitInfo: false
 
 # # Needed for mermaid/katex shortcodes
 markup:
@@ -19,25 +19,25 @@ markup:
 
 # Sidebar menu additional links
 menu:
-  # before:
-  #   - name: "Sample"
-  #     url: "https://google.com"
-  #     weight: 10
-  after:
-    - name: "Github"
-      url: "https://github.com/64bitpandas/amethyst"
-      weight: 10
+   before:
+     - name: "Website"
+       url: "https://speech-eval.pro"
+       weight: 10
+#  after:
+#    - name: "Github"
+#      url: "https://github.com/64bitpandas/amethyst"
+#      weight: 10
 
 params:
 
-  name: Ben Cuan
-  title: 📓 Amethyst
+  name: Kevin Kaul
+  title: 📓 SpeechEvalPro API
 
   # OPTIONAL: custom favicon location
   # favicon: 'location/to/favicon.png'
 
   # whether to display on-hover link preview cards
-  enableLinkPreview: true
+  enableLinkPreview: false
 
   # Enable rendering of LaTeX blocks
   # (surrounded by either single or double dollar signs)
@@ -53,7 +53,7 @@ params:
   enableCallouts: true
 
   # Show footer, including backlinks and graph view
-  enableFooter: true
+  enableFooter: false
 
   # whether backlinks of pages should show the context in which
   # they were mentioned
@@ -64,7 +64,7 @@ params:
 
   # whether to display an 'edit' button next to the last edited field
   # that links to github
-  enableGitHubEdit: true
+  enableGitHubEdit: false
 
   # whether to render mermaid diagrams
   enableMermaid: true

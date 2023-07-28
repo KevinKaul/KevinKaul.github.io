@@ -1,0 +1,156 @@
+---
+bookHidden: true
+---
+
+# English word evaluation question type returns the original result
+
+### Final evaluation result
+
+```json
+{
+    "accuracy":98.8102645874023,
+    "endTime":1420,
+    "hypothesis":"good morning",
+    "overall":98.4839477539062,
+    "refText":"good morning",
+    "startTime":340,
+    "waveTime":1512,
+    "wordInfo":[
+        {
+            "accuracy":98.0167541503906,
+            "endTime":640,
+            "hypothesis":"good",
+            "refText":"good",
+            "rhythm":{
+                "stressRef":0,
+                "stressScore":0
+            },
+            "score":98.2038116455078,
+            "startTime":340,
+            "syllables":[
+                {
+                    "endTime":640,
+                    "phonemes":[
+                        {
+                            "endTime":500,
+                            "hypothesis":"g",
+                            "ph2alpha":"g",
+                            "phid":"1",
+                            "phoneme":"g",
+                            "score":94.9309005737305,
+                            "startTime":340
+                        },
+                        {
+                            "endTime":570,
+                            "hypothesis":"uh",
+                            "ph2alpha":"oo",
+                            "phid":"2_3",
+                            "phoneme":"uh",
+                            "score":99.5826187133789,
+                            "startTime":500
+                        },
+                        {
+                            "endTime":640,
+                            "hypothesis":"d",
+                            "ph2alpha":"d",
+                            "phid":"4",
+                            "phoneme":"d",
+                            "score":99.536750793457,
+                            "startTime":570
+                        }
+                    ],
+                    "score":98.0167541503906,
+                    "startTime":340,
+                    "stressRef":1,
+                    "stressScore":0,
+                    "syllable":"g_uh_d"
+                }
+            ],
+            "type":"normal"
+        },
+        {
+            "accuracy":99.2863693237305,
+            "endTime":1420,
+            "hypothesis":"morning",
+            "refText":"morning",
+            "rhythm":{
+                "stressRef":0,
+                "stressScore":0
+            },
+            "score":99.4117126464844,
+            "startTime":640,
+            "syllables":[
+                {
+                    "endTime":830,
+                    "phonemes":[
+                        {
+                            "endTime":700,
+                            "hypothesis":"m",
+                            "ph2alpha":"m",
+                            "phid":"1",
+                            "phoneme":"m",
+                            "score":98.7722854614258,
+                            "startTime":640
+                        },
+                        {
+                            "endTime":830,
+                            "hypothesis":"ao",
+                            "ph2alpha":"o",
+                            "phid":"2",
+                            "phoneme":"ao",
+                            "score":99.750862121582,
+                            "startTime":700
+                        }
+                    ],
+                    "score":99.2615661621094,
+                    "startTime":640,
+                    "stressRef":1,
+                    "stressScore":0,
+                    "syllable":"m_ao"
+                },
+                {
+                    "endTime":1420,
+                    "phonemes":[
+                        {
+                            "endTime":920,
+                            "hypothesis":"n",
+                            "ph2alpha":"n",
+                            "phid":"4",
+                            "phoneme":"n",
+                            "score":98.0584259033203,
+                            "startTime":830
+                        },
+                        {
+                            "endTime":990,
+                            "hypothesis":"ih",
+                            "ph2alpha":"i",
+                            "phid":"5",
+                            "phoneme":"ih",
+                            "score":99.9880142211914,
+                            "startTime":920
+                        },
+                        {
+                            "endTime":1420,
+                            "hypothesis":"ng",
+                            "ph2alpha":"ng",
+                            "phid":"6_7",
+                            "phoneme":"ng",
+                            "score":99.8622741699219,
+                            "startTime":990
+                        }
+                    ],
+                    "score":99.3029098510742,
+                    "startTime":830,
+                    "stressRef":0,
+                    "stressScore":1,
+                    "syllable":"n_ih_ng"
+                }
+            ],
+            "type":"normal"
+        }
+    ],
+    "taskId":"b1195999-1446-4a71-a671-699c2ceb607f",
+    "timestamp":1670465928
+}
+```
+

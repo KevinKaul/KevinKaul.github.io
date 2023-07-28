@@ -1,0 +1,161 @@
+---
+bookHidden: true
+---
+
+# English sentence evaluation question type returns the original result
+
+### Final evaluation result
+
+```json
+{
+    "accuracy":69.2425308227539,
+    "endTime":1090,
+    "fluency":{
+        "overall":97.6374969482422,
+        "pause":0,
+        "speed":1
+    },
+    "hypothesis":"hi there",
+    "integrity":50.126871557412,
+    "overall":73.1748123168945,
+    "refText":"Hi there.",
+    "rhythm":{
+        "overall":0,
+        "sense":0,
+        "stress":0,
+        "tone":0
+    },
+    "startTime":440,
+    "waveTime":1224,
+    "wordInfo":[
+        {
+            "accuracy":99.0998077392578,
+            "endTime":740,
+            "fluency":100,
+            "hypothesis":"hi",
+            "integrity":100,
+            "refText":"Hi",
+            "rhythm":{
+                "liaisonRef":0,
+                "liaisonScore":0,
+                "senseRef":0,
+                "senseScore":0,
+                "stressRef":0,
+                "stressScore":0,
+                "toneRef":0,
+                "toneScore":0
+            },
+            "score":99.2782211303711,
+            "startTime":440,
+            "syllables":[
+                {
+                    "endTime":0,
+                    "phonemes":[
+                        {
+                            "endTime":580,
+                            "hypothesis":"hh",
+                            "ph2alpha":"h",
+                            "phid":"1",
+                            "phoneme":"hh",
+                            "score":98.6019821166992,
+                            "startTime":440
+                        },
+                        {
+                            "endTime":740,
+                            "hypothesis":"ay",
+                            "ph2alpha":"i",
+                            "phid":"2",
+                            "phoneme":"ay",
+                            "score":99.5976181030273,
+                            "startTime":580
+                        }
+                    ],
+                    "score":0,
+                    "startTime":0,
+                    "stressRef":0,
+                    "stressScore":0,
+                    "syllables":""
+                }
+            ],
+            "type":"normal"
+        },
+        {
+            "accuracy":39.3852615356445,
+            "endTime":1090,
+            "fluency":95.2750015258789,
+            "hypothesis":"there",
+            "integrity":50,
+            "refText":"there.",
+            "rhythm":{
+                "liaisonRef":0,
+                "liaisonScore":0,
+                "senseRef":0,
+                "senseScore":0,
+                "stressRef":0,
+                "stressScore":0,
+                "toneRef":0,
+                "toneScore":0
+            },
+            "score":43.7877311706543,
+            "startTime":740,
+            "syllables":[
+                {
+                    "endTime":0,
+                    "phonemes":[
+                        {
+                            "endTime":870,
+                            "hypothesis":"d",
+                            "ph2alpha":"th",
+                            "phid":"1_2",
+                            "phoneme":"dh",
+                            "score":25.9696979522705,
+                            "startTime":740
+                        },
+                        {
+                            "endTime":1090,
+                            "hypothesis":"ir",
+                            "ph2alpha":"ere",
+                            "phid":"3_4_5",
+                            "phoneme":"ar",
+                            "score":52.8008270263672,
+                            "startTime":870
+                        }
+                    ],
+                    "score":0,
+                    "startTime":0,
+                    "stressRef":0,
+                    "stressScore":0,
+                    "syllables":""
+                }
+            ],
+            "type":"normal"
+        }
+    ],
+    "taskId":"5afedc08-abab-4f2a-9972-8b296667b1cc",
+    "timestamp":1670466297
+}
+```
+
+### 实时返回结果
+
+```json
+{
+    "hypothesis":"Hi there",
+    "wordInfo":[
+        {
+            "index":0,
+            "refText":"Hi",
+            "score":98.2038116455078,
+            "type":"normal"
+        },
+        {
+            "index":1,
+            "refText":"there",
+            "score":98.2038116455078,
+            "type":"normal"
+        }
+    ],
+    "taskId":"5afedc08-abab-4f2a-9972-8b296667b1cc",
+    "timestamp":1670465928
+}
+```
