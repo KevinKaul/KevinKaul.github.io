@@ -4,13 +4,13 @@
 name = "Amethyst"
 license = "MIT"
 licenselink = "https://github.com/64bitpandas/amethyst/blob/main/LICENSE"
-description = "Obsidian-compatible Hugo theme for personal notes"
-homepage = "https://github.com/64bitpandas/amethyst"
-demosite = "https://amethyst.bencuan.me"
-tags = ["responsive", "notes", "obsidian", "obsidian-md", "latex", "documentation", "docs", "flexbox", "search", "mobile", "multilingual", "graph"]
+description = "Independent research and development of educational voice AI model, integrating voice evaluation, speech recognition and other core technologies, providing high-quality, multi-dimensional Chinese and English pronunciation evaluation API"
+homepage = "https://speech-eval.pro"
+demosite = "https://kevinkaul.github.io/"
+tags = ["speech","ai","eval","speech-eval","assessment","api"]
 features = []
 min_version = "0.93"
 
 [author]
-  name = "Ben Cuan"
-  homepage = "https://bencuan.me"
+  name = "kevinkaul"
+  homepage = "https://speech-eval.pro"
