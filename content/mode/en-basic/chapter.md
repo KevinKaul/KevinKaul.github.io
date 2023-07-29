@@ -16,7 +16,9 @@ weight: 4
 | mode      | string   | required     | chapter                                                                                            |
 | refText   | string   | required     | reference text <br />Reference text support [English special label format](datadict/annotation-en) |
 
-example：
+> [!EXAMPLE] Examples
+>
+> 
 
 ```json
 {

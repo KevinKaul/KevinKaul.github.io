@@ -1,5 +1,5 @@
 ---
-title: "- 1.Generate JWT token"
+title: "- 1. Generate JWT token"
 weight: 2
 ---
 
@@ -28,16 +28,26 @@ e.g.
 // appSecret : 04a013293939f96 
 ```
 
+
 ### How the signature is constructed
 
-1. Construct a normalized request string stringToSign using the `appKey` and `timestamp` request parameters (note the order of the parameters), such as:
-> appId=XXXX-XXXX-XXXX&timestamp=1690637789
-2. The request string constructed in the previous step is calculated using the `HMAC-SHA1` signature algorithm to calculate the corresponding  signature (Base64 encoding). Use `appSecret` as the key for the signature algorithm:
-> signature = Base64(HMAC-SHA1(stringToSign, appSecret))
+Step 1: Construct a normalized request string stringToSign using the `appKey` and `timestamp` request parameters (note the order of the parameters), such as:
+```bash
+  appId=XXXX-XXXX-XXXX&timestamp=1690637789
+```
+
+Step 2: The request string constructed in the previous step is calculated using the `HMAC-SHA1` signature algorithm to calculate the corresponding  signature (Base64 encoding). Use `appSecret` as the key for the signature algorithm:
+```bash
+  signature = Base64(HMAC-SHA1(stringToSign, appSecret))
+```
 
 #### Generate  signature sample code
 - [python](sdk/signature_python.md)
+
 - [golang](sdk/signature_golang.md)
+
 - [java](sdk/signature_java.md)
+
 - [c](sdk/signature_c.md)
+
 - [c#](sdk/signature_cs.md)

@@ -17,7 +17,9 @@ weight: 3
 | mode      | string   | required     | sentence                                                                                           |
 | refText   | string   | required     | reference text <br />Reference text support [English special label format](datadict/annotation-en) |
 
-example：
+> [!EXAMPLE] Examples
+>
+> 
 
 ```json
 {

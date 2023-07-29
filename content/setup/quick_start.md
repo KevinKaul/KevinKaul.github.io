@@ -9,20 +9,25 @@ weight: -1
 You need to contact us to obtain an API key. Please contact us by
 
 1. visiting [SpeechEvalPro website](https://speech-eval.pro) 
+
 2. clicking **Start free trial** / **Buy now button** and fill in a form.
 
 We'll get in touch with you in **1 business day**.
 
 
 ## 2. Git clone the samples to your local
-```
-git clone https://github.com/KevinKaul/speechevalpro-api-samples.git
+```bash
+  git clone https://github.com/KevinKaul/speechevalpro-api-samples.git
 ```
 
 ## 3. Identify your needs
 
 - question type (mode) : phoneme、word、sentence、chapter
+
 - langType : en-US、zh-cmn-Hans-CN
-- audio 
+
+- audio
+
+- ....
 
 ## 4. Launch your code and get the result!

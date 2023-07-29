@@ -22,7 +22,9 @@ weight: 1
 
 - Syllable spelling is supported (except for monosyllables), see [Syllable Spelling Labeling Format](datadict/annotation-zh) for more details.
 
-example：
+> [!EXAMPLE] Examples
+>
+> 
 
 ```json
 {

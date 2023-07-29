@@ -1,5 +1,5 @@
 ---
-title: "- 2.Websocket streaming evaluation"
+title: "- 2. Websocket streaming evaluation"
 weight: 3
 ---
 
@@ -18,7 +18,7 @@ Client->>Server: StopMessage
 Server-->>Client:  (Result &&  CompletedMessage) ||  (ErrorMessage &&  CompletedMessage)
 {{< /mermaid >}}
 
-### StartMessage
+### - StartMessage
 [Public Parameters](mode/common.md)
 > `common` field content is fixed
 > 
@@ -26,7 +26,7 @@ Server-->>Client:  (Result &&  CompletedMessage) ||  (ErrorMessage &&  Completed
 > 
 > `payload.params` Refer to the introduction of each question type 
 
-### StopMessage
+### - StopMessage
 **content is fixed**
 ```json
 {
@@ -37,12 +37,12 @@ Server-->>Client:  (Result &&  CompletedMessage) ||  (ErrorMessage &&  Completed
 }
 ```
 
-### Response
+### - Response
 
-#### - Score Result
+####    - Score Result
 Refer to the introduction of each question type
 
-#### - ErrorMessage
+####    - ErrorMessage
 
 e.g.
 ```json
@@ -83,6 +83,8 @@ e.g.
 
 
 ### Special instructions
+> [!tip] Hint
+>
 > 1. Regardless of whether the final `score result` is returned, a `Completedmessage` will be returned, and eventually the server will actively close the connection.
 > 
 > 2. `ErrorMessage` and `score result` do not appear at the same time, they are mutually exclusive.

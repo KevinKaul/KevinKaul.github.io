@@ -51,7 +51,8 @@ It is used in the syllable spelling scene of the Chinese Pinyin question type. W
 > **Notice**
 >
 > For the following 16 overall syllables and 11 other zero-consonant syllables, **Syllabic pronunciation is not supported**.
->
+
+
 > | ID    | overall syllables                         | remark                                                                                        |
 > |:------|:------------------------------------------|:----------------------------------------------------------------------------------------------|
 > | 1     | zhi、chi、shi、ri                            | Overall reading: consonant consonant + apical back vowel [ʅ]                                  |

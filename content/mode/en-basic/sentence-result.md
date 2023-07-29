@@ -136,7 +136,7 @@ bookHidden: true
 }
 ```
 
-### 实时返回结果
+### Return results in real time
 
 ```json
 {

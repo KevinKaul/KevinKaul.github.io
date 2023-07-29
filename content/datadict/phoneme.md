@@ -3,7 +3,9 @@ title: "English Phonetic Symbol Comparison Table"
 weight: 4
 ---
 
-- This document is used for the comparison and conversion of English phonetic symbols
+> [!tip] Hint
+>
+> This document is used for the comparison and conversion of English phonetic symbols
 
 ## Vowel
 

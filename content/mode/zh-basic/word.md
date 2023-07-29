@@ -16,7 +16,9 @@ weight: 2
 | mode      | string   | required     | word                                                                                               |
 | refText   | string   | required     | reference text <br />Reference text support [Chinese special label format](datadict/annotation-zh) |
 
-example：
+> [!EXAMPLE] Examples
+>
+> 
 
 ```json
 {

@@ -12,11 +12,13 @@ technologies, providing high-quality, multi-dimensional Chinese and English pron
 intelligent learning products for human-computer interaction.
 
 ## Get Started
-> 👀 Way 1: [Quick Start](setup/quick_start.md)
-
+> 👀 Way 1:  [Quick Start](setup/quick_start.md)
+>
 > ✏️ Way 2: Usage Guides
+> 
 > - step 1: [Generate JWT token](setup/usage/token.md)
-> - step 2: [Websocket streaming evaluation](setup/usage/ws.md) 
+> 
+> - step 2:[Websocket streaming evaluation](setup/usage/ws.md) 
 
 ## Supported audio formats
 

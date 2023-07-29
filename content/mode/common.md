@@ -4,7 +4,7 @@ weight: -2
 ---
 
 
-## Evaluation parameters
+## 1. Evaluation parameters
 
 ### StartMessage
 
@@ -20,6 +20,9 @@ weight: -2
 | audioUrl        | boolean | Whether to return the audio download URL<br />The audio is kept for about 10 days by default. If you need to save it permanently, it is recommended that the access party download it to its own server                                                                                                                                                                                                                                                                                       | false    |
 | realtime        | boolean | Whether to return the result in real time<br>Only Chinese/English sentence, chapter question types are supported.                                                                                                                                                                                                                                                                                                                                                                             | false    |
 
+> [!EXAMPLE] Examples
+>
+> 
 ```json
 {
     "common": {
@@ -47,6 +50,8 @@ weight: -2
 }
 
 ```
+
+## 2. Public parameters in the response
 ### audioInfo（Audio Quality Information）field
 
 | params  | type    | remark                                                                                                                                                       |

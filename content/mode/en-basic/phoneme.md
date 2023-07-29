@@ -16,7 +16,9 @@ weight: 1
 | mode      | string   | required     | phoneme                                                                                                                                                                                                                          |
 | refText   | string   | required     | reference text <br />Only phoneme representation in *SpeechEvalPro* format is supported, see [English Phonetic Symbol Comparison Table](datadict/phoneme) for details. Multiple phonetic symbols are separated by English spaces |
 
-example：
+> [!EXAMPLE] Examples
+>
+> 
 
 ```json
 {

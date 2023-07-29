@@ -17,7 +17,9 @@ weight: 3
 | refText   | string   | required     | reference text <br />Reference text support [Chinese special label format](datadict/annotation-zh) |
 | phonemes  | boolean  | false        | whether or not to return sound and rhyme information                                               |
 
-example：
+> [!EXAMPLE] Examples
+>
+> 
 
 ```json
 {

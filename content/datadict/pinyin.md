@@ -3,8 +3,9 @@ title: "Chinese Pinyin Comparison Table"
 weight: 5
 ---
 
-
-- This document is used for Chinese Pinyin format comparison and conversion
+> [!tip] Hint
+> 
+> This document is used for Chinese Pinyin format comparison and conversion
 
 ## consonant, soundproof letter
 
