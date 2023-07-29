@@ -1,4 +1,4 @@
 ---
-linkTitle: "英文题型"
+linkTitle: "English"
 weight: 1
 ---

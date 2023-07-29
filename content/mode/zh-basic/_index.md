@@ -1,4 +1,4 @@
 ---
-linkTitle: "中文题型"
+linkTitle: "Mandarin Chinese"
 weight: 2
 ---

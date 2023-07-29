@@ -1,4 +1,4 @@
 ---
-linkTitle: "公共文档"
+linkTitle: "Special Instructions"
 weight: 1
 ---

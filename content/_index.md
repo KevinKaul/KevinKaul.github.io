@@ -12,13 +12,11 @@ technologies, providing high-quality, multi-dimensional Chinese and English pron
 intelligent learning products for human-computer interaction.
 
 ## Get Started
-> 📚 Step 1: [获取AppKey](setup/appkey.md)
+> 👀 Way 1: [Quick Start](setup/quick_start.md)
 
-> ✏️ Step 2: [获取Token](setup/token.md)
-
-> 🔗 Step 3: [websocket 评测流程](setup/ws.md)
-
-> 👀 Step 4: [查看golang example](setup/example.md)
+> ✏️ Way 2: Usage Guides
+> - step 1: [Generate JWT token](setup/usage/token.md)
+> - step 2: [Websocket streaming evaluation](setup/usage/ws.md) 
 
 ## Supported audio formats
 
@@ -33,28 +31,24 @@ intelligent learning products for human-computer interaction.
 
 
 ## Supported question type introduction
-
 ### English question type
 
 langType：en-US
 
-| name                                                         | mode     | Audio duration limit | Reference text length limit |
-|:-------------------------------------------------------------|:---------|:---------------------|:----------------------------|
-| <a href="#/help?url=mode/en-basic/phoneme.md" target="_blank">phoneme</a> | phoneme  | 20 s                 | 100 characters              |
-| <a href="#/help?url=mode/en-basic/word.md" target="_blank">word</a> | word     | 20 s                 | 100 characters              |
-| <a href="#/help?url=mode/en-basic/sentence.md" target="_blank">sentence</a> | sentence | 40 s                 | 300 characters              |
-| <a href="#/help?url=mode/en-basic/chapter.md" target="_blank">paragraph</a> | chapter  | 300 s                | 10000 characters            |
+| name                                   | mode      | Audio duration limit  | Reference text length limit  |
+|:---------------------------------------|:----------|:----------------------|:-----------------------------|
+| [phoneme](mode/en-basic/phoneme.md)    | phoneme   | 20 s                  | 100 characters               |
+| [word](mode/en-basic/word.md)          | word      | 20 s                  | 100 characters               |
+| [sentence](mode/en-basic/sentence.md)  | sentence  | 40 s                  | 300 characters               |
+| [paragraphs](mode/en-basic/chapter.md) | chapter   | 300 s                 | 10000 characters             |
 
-## Chinese question type
+### Chinese question type
 
 langType：zh-cmn-Hans-CN
 
-| name                                                         | mode     | Audio duration limit | Reference text length limit |
-|:-------------------------------------------------------------|:---------|:---------------------|:----------------------------|
-| <a href="#/help?url=mode/en-basic/phoneme.md" target="_blank">phoneme</a> | phoneme  | 20 s                 | 100 characters              |
-| <a href="#/help?url=mode/en-basic/word.md" target="_blank">word</a> | word     | 20 s                 | 50 characters               |
-| <a href="#/help?url=mode/en-basic/sentence.md" target="_blank">sentence</a> | sentence | 40 s                 | 100 characters              |
-| <a href="#/help?url=mode/en-basic/chapter.md" target="_blank">paragraph</a> | chapter  | 300 s                | 1000 characters             |
-
-
-
+| name                                   | mode      | Audio duration limit  | Reference text length limit  |
+|:---------------------------------------|:----------|:----------------------|:-----------------------------|
+| [phoneme](mode/zh-basic/phoneme.md)    | phoneme   | 20 s                  | 100 characters               |
+| [word](mode/zh-basic/word.md)          | word      | 20 s                  | 50 characters                |
+| [sentence](mode/zh-basic/sentence.md)  | sentence  | 40 s                  | 100 characters               |
+| [paragraphs](mode/zh-basic/chapter.md) | chapter   | 300 s                 | 1000 characters              |

@@ -4,23 +4,58 @@
       "/": [
         {
           "source": "/",
-          "target": "/setup/appkey",
-          "text": "获取AppKey"
+          "target": "/setup/quick_start",
+          "text": "Quick Start"
         },
         {
           "source": "/",
-          "target": "/setup/token",
-          "text": "获取Token"
+          "target": "/setup/usage/token",
+          "text": "Generate JWT token"
         },
         {
           "source": "/",
-          "target": "/setup/ws",
-          "text": "websocket 评测流程"
+          "target": "/setup/usage/ws",
+          "text": "Websocket streaming evaluation"
         },
         {
           "source": "/",
-          "target": "/setup/example",
-          "text": "查看golang example"
+          "target": "/mode/en-basic/phoneme",
+          "text": "phoneme"
+        },
+        {
+          "source": "/",
+          "target": "/mode/en-basic/word",
+          "text": "word"
+        },
+        {
+          "source": "/",
+          "target": "/mode/en-basic/sentence",
+          "text": "sentence"
+        },
+        {
+          "source": "/",
+          "target": "/mode/en-basic/chapter",
+          "text": "paragraphs"
+        },
+        {
+          "source": "/",
+          "target": "/mode/zh-basic/phoneme",
+          "text": "phoneme"
+        },
+        {
+          "source": "/",
+          "target": "/mode/zh-basic/word",
+          "text": "word"
+        },
+        {
+          "source": "/",
+          "target": "/mode/zh-basic/sentence",
+          "text": "sentence"
+        },
+        {
+          "source": "/",
+          "target": "/mode/zh-basic/chapter",
+          "text": "paragraphs"
         }
       ],
       "/mode/en-basic/chapter": [
@@ -305,6 +340,40 @@
           "target": "/datadict/other",
           "text": "word type"
         }
+      ],
+      "/setup/usage/token": [
+        {
+          "source": "/setup/usage/token",
+          "target": "/sdk/signature_python",
+          "text": "python"
+        },
+        {
+          "source": "/setup/usage/token",
+          "target": "/sdk/signature_golang",
+          "text": "golang"
+        },
+        {
+          "source": "/setup/usage/token",
+          "target": "/sdk/signature_java",
+          "text": "java"
+        },
+        {
+          "source": "/setup/usage/token",
+          "target": "/sdk/signature_c",
+          "text": "c"
+        },
+        {
+          "source": "/setup/usage/token",
+          "target": "/sdk/signature_cs",
+          "text": "c#"
+        }
+      ],
+      "/setup/usage/ws": [
+        {
+          "source": "/setup/usage/ws",
+          "target": "/mode/common",
+          "text": "Public Parameters"
+        }
       ]
     },
     "backlinks": {
@@ -503,9 +572,19 @@
           "source": "/mode/zh-basic/word",
           "target": "/mode/common",
           "text": "Audio Quality Information"
+        },
+        {
+          "source": "/setup/usage/ws",
+          "target": "/mode/common",
+          "text": "Public Parameters"
         }
       ],
       "/mode/en-basic/chapter": [
+        {
+          "source": "/",
+          "target": "/mode/en-basic/chapter",
+          "text": "paragraphs"
+        },
         {
           "source": "/mode/intro",
           "target": "/mode/en-basic/chapter",
@@ -521,6 +600,11 @@
       ],
       "/mode/en-basic/phoneme": [
         {
+          "source": "/",
+          "target": "/mode/en-basic/phoneme",
+          "text": "phoneme"
+        },
+        {
           "source": "/mode/intro",
           "target": "/mode/en-basic/phoneme",
           "text": "phoneme"
@@ -534,6 +618,11 @@
         }
       ],
       "/mode/en-basic/sentence": [
+        {
+          "source": "/",
+          "target": "/mode/en-basic/sentence",
+          "text": "sentence"
+        },
         {
           "source": "/mode/intro",
           "target": "/mode/en-basic/sentence",
@@ -549,6 +638,11 @@
       ],
       "/mode/en-basic/word": [
         {
+          "source": "/",
+          "target": "/mode/en-basic/word",
+          "text": "word"
+        },
+        {
           "source": "/mode/intro",
           "target": "/mode/en-basic/word",
           "text": "word"
@@ -562,6 +656,11 @@
         }
       ],
       "/mode/zh-basic/chapter": [
+        {
+          "source": "/",
+          "target": "/mode/zh-basic/chapter",
+          "text": "paragraphs"
+        },
         {
           "source": "/mode/intro",
           "target": "/mode/zh-basic/chapter",
@@ -577,6 +676,11 @@
       ],
       "/mode/zh-basic/phoneme": [
         {
+          "source": "/",
+          "target": "/mode/zh-basic/phoneme",
+          "text": "phoneme"
+        },
+        {
           "source": "/mode/intro",
           "target": "/mode/zh-basic/phoneme",
           "text": "phoneme"
@@ -590,6 +694,11 @@
         }
       ],
       "/mode/zh-basic/sentence": [
+        {
+          "source": "/",
+          "target": "/mode/zh-basic/sentence",
+          "text": "sentence"
+        },
         {
           "source": "/mode/intro",
           "target": "/mode/zh-basic/sentence",
@@ -605,6 +714,11 @@
       ],
       "/mode/zh-basic/word": [
         {
+          "source": "/",
+          "target": "/mode/zh-basic/word",
+          "text": "word"
+        },
+        {
           "source": "/mode/intro",
           "target": "/mode/zh-basic/word",
           "text": "word"
@@ -617,32 +731,60 @@
           "text": "A complete example of the JSON response result"
         }
       ],
-      "/setup/appkey": [
+      "/sdk/signature_c": [
         {
-          "source": "/",
-          "target": "/setup/appkey",
-          "text": "获取AppKey"
+          "source": "/setup/usage/token",
+          "target": "/sdk/signature_c",
+          "text": "c"
         }
       ],
-      "/setup/example": [
+      "/sdk/signature_cs": [
         {
-          "source": "/",
-          "target": "/setup/example",
-          "text": "查看golang example"
+          "source": "/setup/usage/token",
+          "target": "/sdk/signature_cs",
+          "text": "c#"
         }
       ],
-      "/setup/token": [
+      "/sdk/signature_golang": [
         {
-          "source": "/",
-          "target": "/setup/token",
-          "text": "获取Token"
+          "source": "/setup/usage/token",
+          "target": "/sdk/signature_golang",
+          "text": "golang"
         }
       ],
-      "/setup/ws": [
+      "/sdk/signature_java": [
+        {
+          "source": "/setup/usage/token",
+          "target": "/sdk/signature_java",
+          "text": "java"
+        }
+      ],
+      "/sdk/signature_python": [
+        {
+          "source": "/setup/usage/token",
+          "target": "/sdk/signature_python",
+          "text": "python"
+        }
+      ],
+      "/setup/quick_start": [
         {
           "source": "/",
-          "target": "/setup/ws",
-          "text": "websocket 评测流程"
+          "target": "/setup/quick_start",
+          "text": "Quick Start"
+        }
+      ],
+      "/setup/usage/token": [
+        {
+          "source": "/",
+          "target": "/setup/usage/token",
+          "text": "Generate JWT token"
+        }
+      ],
+      "/setup/usage/ws": [
+        {
+          "source": "/",
+          "target": "/setup/usage/ws",
+          "text": "Websocket streaming evaluation"
         }
       ]
     }
@@ -650,23 +792,58 @@
   "links": [
     {
       "source": "/",
-      "target": "/setup/appkey",
-      "text": "获取AppKey"
+      "target": "/setup/quick_start",
+      "text": "Quick Start"
     },
     {
       "source": "/",
-      "target": "/setup/token",
-      "text": "获取Token"
+      "target": "/setup/usage/token",
+      "text": "Generate JWT token"
     },
     {
       "source": "/",
-      "target": "/setup/ws",
-      "text": "websocket 评测流程"
+      "target": "/setup/usage/ws",
+      "text": "Websocket streaming evaluation"
     },
     {
       "source": "/",
-      "target": "/setup/example",
-      "text": "查看golang example"
+      "target": "/mode/en-basic/phoneme",
+      "text": "phoneme"
+    },
+    {
+      "source": "/",
+      "target": "/mode/en-basic/word",
+      "text": "word"
+    },
+    {
+      "source": "/",
+      "target": "/mode/en-basic/sentence",
+      "text": "sentence"
+    },
+    {
+      "source": "/",
+      "target": "/mode/en-basic/chapter",
+      "text": "paragraphs"
+    },
+    {
+      "source": "/",
+      "target": "/mode/zh-basic/phoneme",
+      "text": "phoneme"
+    },
+    {
+      "source": "/",
+      "target": "/mode/zh-basic/word",
+      "text": "word"
+    },
+    {
+      "source": "/",
+      "target": "/mode/zh-basic/sentence",
+      "text": "sentence"
+    },
+    {
+      "source": "/",
+      "target": "/mode/zh-basic/chapter",
+      "text": "paragraphs"
     },
     {
       "source": "/mode/en-basic/chapter",
@@ -932,6 +1109,36 @@
       "source": "/mode/zh-basic/word",
       "target": "/datadict/other",
       "text": "word type"
+    },
+    {
+      "source": "/setup/usage/token",
+      "target": "/sdk/signature_python",
+      "text": "python"
+    },
+    {
+      "source": "/setup/usage/token",
+      "target": "/sdk/signature_golang",
+      "text": "golang"
+    },
+    {
+      "source": "/setup/usage/token",
+      "target": "/sdk/signature_java",
+      "text": "java"
+    },
+    {
+      "source": "/setup/usage/token",
+      "target": "/sdk/signature_c",
+      "text": "c"
+    },
+    {
+      "source": "/setup/usage/token",
+      "target": "/sdk/signature_cs",
+      "text": "c#"
+    },
+    {
+      "source": "/setup/usage/ws",
+      "target": "/mode/common",
+      "text": "Public Parameters"
     }
   ]
 }

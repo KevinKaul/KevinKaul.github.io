@@ -1,4 +1,4 @@
 ---
-linkTitle: "接口参数"
+linkTitle: "API Params & Response"
 weight: 2
 ---
