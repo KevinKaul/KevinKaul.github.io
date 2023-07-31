@@ -51,3 +51,18 @@ Step 2: The request string constructed in the previous step is calculated using 
 - [c](sdk/signature_c.md)
 
 - [c#](sdk/signature_cs.md)
+
+### How to use token
+- **Recommended** : Put token in the request `header` of websockets
+
+```bash
+ "Authorization" : "Bearer {{$TOKEN}}"
+```
+
+> This is more in line with the OAuth 2.0 specification, and you can also choose not to carry `Bearer` and directly pass in the token.
+
+
+- The second way is to directly splice the token directly behind the request address.such as:
+```bash
+ wss://{{$HOST}}/en-US/sentence?Authorization={{$TOKEN}}
+```

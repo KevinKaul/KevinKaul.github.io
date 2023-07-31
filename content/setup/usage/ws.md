@@ -7,7 +7,7 @@ weight: 3
 
 {{< mermaid >}}
 sequenceDiagram
-Client->>Server: Establish a connection
+Client->>Server: Establish a connection (Carry the token in the header or in the url)
 Server-->>Client: The connection was successful
 Client->>Server: StartMessage
 Server-->>Client: StartedMessage
