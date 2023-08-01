@@ -227,36 +227,8 @@ bookHidden: true
         }
     ],
     "toneScore":100,
-    "waveTime":11988,
-    "taskId":"8995f479-6b87-4812-aa08-d7120b4102c6",
-    "timestamp":1677489414,
-    "params":{
-        "connection":{
-            "core":"1.2.3.1",
-            "sdk":"ios",
-            "version":"",
-            "gateway":"1.2.2.5,1.0.1",
-            "appId":"4ac2e***-****-****-****-********4c08",
-            "userId":"",
-            "deviceId":"",
-            "online":true
-        },
-        "request":{
-            "langType":"zh-cmn-Hans-CN",
-            "format":"mp3",
-            "sampleRate":16000,
-            "params":{
-                "mode":"phoneme",
-                "refText":"i u v b po1 mo1(*) fo"
-            },
-            "ratio":1,
-            "userId":"",
-            "scale":100,
-            "responseTimeout":15,
-            "connectTimeout":15,
-            "looseness":4
-        }
-    }
+    "waveTime":11988
+    ....
 }
 ```
 

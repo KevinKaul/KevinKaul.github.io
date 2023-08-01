@@ -15,7 +15,7 @@ bookHidden: true
     "toneScore":96.4839470627539,
     "startTime":340,
     "waveTime":1020,
-    "taskId":"b1195999-1446-4a71-a671-699c2ceb607f",
+    "evalId":"b1195999-1446-4a71-a671-699c2ceb607f",
     "timestamp":1670465928,
     "characters":[
         {
@@ -114,31 +114,7 @@ bookHidden: true
                 }
             ]
         }
-    ],
-    "params":{
-        "connection":{
-            "core":"1.2.1.14",
-            "sdk":"miniprogram",
-            "version":"1.0.0.0",
-            "appId":"4ac2e***-****-****-****-********4c08",
-            "userId":"",
-            "deviceId":""
-        },
-        "request":{
-            "connectTimeout":15,
-            "format":"mp3",
-            "langType":"zh-cmn-Hans-CN",
-            "looseness":4,
-            "params":{
-                "mode":"word",
-                "refText":"早 早点"
-            },
-            "ratio":1,
-            "responseTimeout":15,
-            "sampleRate":"16000",
-            "scale":100
-        }
-    }
+    ]
 }
 ```
 

@@ -131,41 +131,10 @@ bookHidden: true
                     "elongationScore":0,
                     "type":"normal"
                 },
-                ……下略……
+                …………
             ]
         }
-    ],
-    "startTime":130,
-    "waveTime":4062,
-    "taskId":"93ee407d-4907-467d-a76c-fbe1c459f20f",
-    "timestamp":1681955235,
-    "params":{
-        "connection":{
-            "core":"1.2.4.11",
-            "sdk":"ios",
-            "version":"",
-            "gateway":"2.3.2,2.0.2",
-            "appId":"4ac2e***-****-****-****-********4c08",
-            "userId":"",
-            "deviceId":"",
-            "online":true
-        },
-        "request":{
-            "langType":"zh-cmn-Hans-CN",
-            "format":"pcm",
-            "sampleRate":16000,
-            "params":{
-                "mode":"chapter",
-                "refText":"我的心不禁一颤：多可爱的小生灵啊！对人无所求，给人的却是极好的东西。蜜蜂是在酿蜜，又是在酿造生活；不是为自己，而是在为人类酿造最甜的生活。蜜蜂是渺小的；蜜蜂却又多么高尚啊！",
-                "phonemes":false
-            },
-            "ratio":1,
-            "scale":100,
-            "responseTimeout":15,
-            "connectTimeout":15,
-            "looseness":4
-        }
-    }
+    ]
 }
 ```
 
@@ -188,7 +157,7 @@ bookHidden: true
             "type":"normal"
         }
     ],
-    "taskId":"93ee407d-4907-467d-a76c-fbe1c459f20f",
+    "evalId":"93ee407d-4907-467d-a76c-fbe1c459f20f",
     "timestamp":1670465928
 }
 ```

@@ -13,6 +13,7 @@ Client->>Server: StartMessage
 Server-->>Client: StartedMessage
 loop 
 Client->>Server: Send audio data (binary)
+Server->>Client: Returns real-time results (if you send startMsg with real-time and sentence or paragraph type)
 end
 Client->>Server: StopMessage
 Server-->>Client:  (Result &&  CompletedMessage) ||  (ErrorMessage &&  CompletedMessage)
@@ -40,7 +41,31 @@ Server-->>Client:  (Result &&  CompletedMessage) ||  (ErrorMessage &&  Completed
 ### - Response
 
 ####    - Score Result
-Refer to the introduction of each question type
+e.g.
+```json
+{
+    "ack": "result",
+    "code": "00000",
+    "eof": 1, // The final result is 1, the real-time result is 0
+    "evalId": "705452d7-bd98-456d-981f-d461cc97e3f3",
+    "msg": "success",
+    "timestamp": 1670870100,
+    "result": {
+      .... // Refer to the introduction of each question type
+    },
+    "request": { // Your startMsg.payload parameter (with default value)
+        "langType": "en-US",
+        "format": "pcm",
+        "params": {
+          "refText": "refText",
+          "mode": "sentence"
+        }
+    }
+}
+
+```
+
+
 
 ####    - ErrorMessage
 

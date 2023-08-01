@@ -35,9 +35,9 @@ weight: 4
 
 | **field**         | **type**          | **remark**                                                                                       |
 |:------------------|:------------------|:-------------------------------------------------------------------------------------------------|
-| taskId            | string            | taskID                                                                                           |
+| evalId            | string            | evalId                                                                                           |
 | timestamp         | integer           | task timestamp                                                                                   |
-| audioUrl          | string            | audio storage url (this field is only returned when the question type parameter `audioUrl=true`) |
+|~~attachAudioUrl~~          | string            | audio storage url (this field is only returned when the question type parameter `attachAudioUrl=true`) |
 | **audioInfo**     | **dict**          | [Audio Quality Information](mode/common)                                                         |
 | refText           | string            | reference text                                                                                   |
 | pinyin            | string            | pinyin transcription of the corresponding reference text (with tones)                            |
@@ -100,7 +100,7 @@ weight: 4
 
 | **field**     | **type**  | **remark**                                                  |
 |:--------------|:----------|:------------------------------------------------------------|
-| taskId        | string    | taskID                                                      |
+| evalId        | string    | evalId                                                      |
 | timestamp     | integer   | task timestamp                                              |
 | hypothesis    | string    | actual text read                                            |
 | **wordInfo**  | **list**  | **word information object array**                           |
