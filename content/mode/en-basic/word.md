@@ -3,6 +3,7 @@ title: "Word Scoring"
 weight: 2
 ---
 
+> wss://api.xxxxx.com/en-US/word
 ## Limit
 
 - send audio up to 20 seconds long 
@@ -22,7 +23,7 @@ weight: 2
 ```json
 {
   "mode":"word",
-  "refText":"good morning"
+  "refText":"hello world"
 }
 ```
 

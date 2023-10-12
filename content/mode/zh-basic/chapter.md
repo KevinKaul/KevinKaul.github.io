@@ -3,11 +3,11 @@ title: "Paragraphs Scoring"
 weight: 4
 ---
 
-
+> wss://api.xxxxx.com/zh-cmn-Hans-CN/chapter
 ## Limit
 
 - send audio up to 300 seconds long 
-- reference text up to 1000 characters.
+- reference text up to 2000 characters.
 - can be set to enable real-time return results   [Evaluation parameters](mode/common.md)
 
 ## Parameter
@@ -25,7 +25,7 @@ weight: 4
 ```json
 {
   "mode":"chapter",
-  "refText":"我的心不禁一颤：多可爱的小生灵啊！对人无所求，给人的却是极好的东西。蜜蜂是在酿蜜，又是在酿造生活；不是为自己，而是在为人类酿造最甜的生活。蜜蜂是渺小的；蜜蜂却又多么高尚啊！"
+  "refText":"我们的明天更美丽！"
 }
 ```
 

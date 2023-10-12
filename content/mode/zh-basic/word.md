@@ -3,7 +3,7 @@ title: "Word Scoring"
 weight: 2
 ---
 
-
+> wss://api.xxxxx.com/zh-cmn-Hans-CN/word
 ## Limit
 
 - send audio up to 20 seconds long 
@@ -23,7 +23,7 @@ weight: 2
 ```json
 {
   "mode":"word",
-  "refText":"早 早点"
+  "refText":"明天 明儿"
 }
 ```
 

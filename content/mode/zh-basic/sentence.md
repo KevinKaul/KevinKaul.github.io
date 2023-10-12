@@ -3,6 +3,7 @@ title: "Sentence Scoring"
 weight: 3
 ---
 
+> wss://api.xxxxx.com/zh-cmn-Hans-CN/sentence
 ## Limit
 
 - send audio up to 40 seconds long 
@@ -24,7 +25,7 @@ weight: 3
 ```json
 {
   "mode":"sentence",
-  "refText":"今天天气不错。"
+  "refText":"这辆车看起来真帅。"
 }
 ```
 

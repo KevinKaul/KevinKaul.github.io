@@ -19,6 +19,24 @@ Client->>Server: StopMessage
 Server-->>Client:  (Result &&  CompletedMessage) ||  (ErrorMessage &&  CompletedMessage)
 {{< /mermaid >}}
 
+## Request Host URL
+wss://{{ApiHost}}/{{LangType}}/{{QuestionType}}
+
+> Don’t forget to carry the token obtained in the first step in the header.
+
+e.g.
+
+- wss://api.xxxxx.com/en-US/phoneme
+- wss://api.xxxxx.com/en-US/word
+- wss://api.xxxxx.com/en-US/sentence
+- wss://api.xxxxx.com/en-US/chapter
+
+- wss://api.xxxxx.com/zh-cmn-Hans-CN/phoneme
+- wss://api.xxxxx.com/zh-cmn-Hans-CN/word
+- wss://api.xxxxx.com/zh-cmn-Hans-CN/sentence
+- wss://api.xxxxx.com/zh-cmn-Hans-CN/chapter
+
+
 ### - StartMessage
 [Public Parameters](mode/common.md)
 > `common` field content is fixed

@@ -3,7 +3,7 @@ title: "Hanyu Pinyin Scoring"
 weight: 1
 ---
 
-
+> wss://api.xxxxx.com/zh-cmn-Hans-CN/phoneme
 ## Limit
 
 - send audio up to 20 seconds long 
@@ -29,7 +29,7 @@ weight: 1
 ```json
 {
   "mode":"phoneme",
-  "refText":"i u v b po1 mo1(*) fo"
+  "refText":"v b po1 mo1(*) fo"
 }
 ```
 

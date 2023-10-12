@@ -3,7 +3,7 @@ title: "Phoneme Scoring"
 weight: 1
 ---
 
-
+> wss://api.xxxxx.com/en-US/chapter
 ## Limit
 
 - send audio up to 20 seconds long 

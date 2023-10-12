@@ -3,7 +3,7 @@ title: "Sentence Scoring"
 weight: 3
 ---
 
-
+> wss://api.xxxxx.com/en-US/sentence
 ## Limit
 
 - send audio up to 40 seconds long 
@@ -24,7 +24,7 @@ weight: 3
 ```json
 {
   "mode":"sentence",
-  "refText":"Hi there."
+  "refText":"Hello world."
 }
 ```
 

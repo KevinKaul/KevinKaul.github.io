@@ -2,7 +2,7 @@
 title: "Paragraphs Scoring"
 weight: 4
 ---
-
+> wss://api.xxxxx.com/en-US/chapter
 ## Limit
 
 - send audio up to 300 seconds long 
@@ -23,7 +23,7 @@ weight: 4
 ```json
 {
   "mode":"chapter",
-  "refText":"I believe there is a person who brings sunshine into your life. That person may have enough to spread around."
+  "refText":"Don’t forget to carry the token obtained in the first step in the header."
 }
 ```
 
